@@ -1,0 +1,27 @@
+{
+  "name": "paypal-express-checkout",
+  "version": "0.0.1",
+  "description": "nodejs library for paypal express checkout api support",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-madhavan/paypal-express-checkout.git"
+  },
+  "keywords": [
+    "paypal",
+    "express",
+    "checkout",
+    "babel",
+    "es6",
+    "nvp"
+  ],
+  "author": "Sean Madhavan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sean-madhavan/paypal-express-checkout/issues"
+  },
+  "homepage": "https://github.com/sean-madhavan/paypal-express-checkout#readme"
+}

@@ -1,24 +1,8 @@
 import gulp from 'gulp';
-import babel from 'gulp-babel';
-import { log } from 'gulp-util';
+import runSequence from 'run-sequence';
 
-const buildTask = () => {
-  return new Promise((resolve, reject) => {
-    gulp.src([
-      'lib/**/*.js'
-    ])
-    .pipe(babel({
-      sourceMaps: 'inline'
-    }))
-    .pipe(gulp.dest('./dist'))
-    .on('error', (err) => {
-      reject(err);
-    })
-    .on('end', () => {
-      log('Completed ES6 Conversion');
-      resolve();
-    })
-  });
+const buildTask = (cb) => {
+  runSequence('clean', 'eslint', 'babel', cb);
 };
 
 gulp.task('build', buildTask);

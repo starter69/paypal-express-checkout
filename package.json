@@ -4,6 +4,7 @@
   "description": "nodejs library for paypal express checkout api support",
   "main": "index.js",
   "scripts": {
+    "flow": "flow",
     "test": "npm run test"
   },
   "repository": {
@@ -24,12 +25,28 @@
     "url": "https://github.com/sean-madhavan/paypal-express-checkout/issues"
   },
   "homepage": "https://github.com/sean-madhavan/paypal-express-checkout#readme",
+  "engines": {
+    "node": ">=6 && <7",
+    "npm": ">=3"
+  },
   "devDependencies": {
     "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
     "babel-preset-es2015": "^6.9.0",
+    "del": "^2.2.1",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-flowtype": "^2.3.0",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "flow-bin": "^0.28.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
     "gulp-util": "^3.0.7",
-    "require-dir": "^0.3.0"
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2"
   }
 }

@@ -12,6 +12,8 @@
 
   },
   "rules": {
+    "comma-dangle": 0,
+    "no-underscore-dangle": 0,
     "no-console": 0,
     "flowtype/require-parameter-type": 1,
     "flowtype/require-return-type": [

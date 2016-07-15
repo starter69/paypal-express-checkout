@@ -1,5 +1,5 @@
 {
-  "name": "paypal-express-checkout",
+  "name": "paypal-express-checkout-es6",
   "version": "0.0.1",
   "description": "nodejs library for paypal express checkout api support",
   "main": "index.js",

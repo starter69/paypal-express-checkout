@@ -18,7 +18,11 @@
     "checkout",
     "babel",
     "es6",
-    "nvp"
+    "nvp",
+    "parallel",
+    "payment",
+    "reference",
+    "transactions"
   ],
   "author": "Sean Madhavan",
   "license": "MIT",

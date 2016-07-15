@@ -13,8 +13,10 @@ gulp build
 ### Basic usage
 All functions basically uses `call` function to send API request.
 
+For reference please refer to https://developer.paypal.com/docs/classic/express-checkout/
+
 ```js
-import Paypal from 'paypal-express-checkout';
+import Paypal from 'paypal-express-checkout-es6';
 
 const config = {
   USER,
@@ -24,8 +26,6 @@ const config = {
 };
 
 const paypal = new Paypal(config);
-
-// For reference please refer to https://developer.paypal.com/docs/classic/express-checkout/
 
 paypal.call(method, params);
 
